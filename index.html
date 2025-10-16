@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creando una App Pomodoro con Gemini</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <div class="container mx-auto max-w-4xl p-6 md:p-12">
+
+        <!-- Encabezado -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-white leading-tight">
+                Creando una App Pomodoro <span class="text-cyan-400">con Gemini</span>
+            </h1>
+            <p class="text-lg text-gray-400 mt-4">
+                Un diario de desarrollo documentando cada prompt en el camino hacia la aplicación de productividad definitiva.
+            </p>
+        </header>
+
+        <main>
+            <!-- Contenedor del Prompt 1 -->
+            <div class="bg-gray-800 rounded-xl shadow-lg p-6 md:p-8 mb-12">
+                <h3 class="text-2xl font-bold text-cyan-400 mb-6">Prompt #1: La Visión Inicial</h3>
+                
+                <div class="prose prose-invert max-w-none text-gray-300 space-y-4">
+                    <p class="italic">"Actúa como un desarrollador con experiencia de varios años en el desarrollo de aplicaciones web. Haz una aplicación que sea un pomodoro de la manera más creativa posible y que se pueda personalizar el diseño."</p>
+                    
+                    <h4 class="text-xl font-semibold text-white pt-4">I. Fundamentos Inquebrantables y Flexibilidad Absoluta</h4>
+                    <p>La herramienta debe ser, ante todo, un maestro de la Técnica Pomodoro, pero con la capacidad de adaptarse a cada usuario.</p>
+                    <ul>
+                        <li><strong>Ciclos Pomodoro Personalizables:</strong> El usuario debe tener control total sobre la duración de los intervalos de trabajo (pomodoros), los descansos cortos y los descansos largos. Esto incluye la posibilidad de ajustar el número de pomodoros antes de un descanso largo.</li>
+                        <li><strong>Modo Continuo y Manual:</strong> Debería ofrecer la opción de transiciones automáticas entre los ciclos de trabajo y descanso, así como un modo manual para quienes prefieren un control más deliberado.</li>
+                        <li><strong>Pausa y Anulación Inteligente:</strong> Permitir pausar un pomodoro en caso de una interrupción inevitable, con la opción de reanudar o anular la sesión. La anulación debería registrar el motivo para un análisis posterior.</li>
+                    </ul>
+
+                    <h4 class="text-xl font-semibold text-white pt-4">II. Gestión de Tareas Integrada y Avanzada</h4>
+                    <p>Un Pomodoro es tan útil como las tareas que ayuda a completar. Por ello, la gestión de tareas debe ser robusta.</p>
+                    <ul>
+                        <li><strong>Lista de Tareas Completa:</strong> Integración de una lista de tareas donde se puedan añadir, editar, priorizar y eliminar quehaceres. Debería permitir la organización por proyectos o etiquetas.</li>
+                        <li><strong>Estimación de Pomodoros:</strong> Posibilidad de asignar un número estimado de pomodoros a cada tarea, lo que facilita la planificación de la jornada.</li>
+                        <li><strong>Subtareas y Agrupación:</strong> Permitir desglosar tareas complejas en subtareas más manejables y agrupar tareas pequeñas en un solo pomodoro.</li>
+                        <li><strong>Integración con Métodos de Priorización:</strong> Incorporar marcos de trabajo como la Matriz de Eisenhower (urgente/importante) para ayudar al usuario a decidir en qué enfocarse a continuación.</li>
+                    </ul>
+
+                    <h4 class="text-xl font-semibold text-white pt-4">III. Un Entorno Libre de Distracciones y Enfocado</h4>
+                    <p>El pomodoro ideal debe ser un guardián de la concentración del usuario.</p>
+                    <ul>
+                        <li><strong>Bloqueador de Distracciones:</strong> Capacidad de bloquear sitios web y aplicaciones específicas durante los intervalos de trabajo. Esta "lista negra" debería ser personalizable.</li>
+                        <li><strong>Lista Blanca de Aplicaciones:</strong> Para tareas que requieren herramientas online, permitir una "lista blanca" de sitios y aplicaciones permitidos.</li>
+                        <li><strong>Notificaciones Silenciadas:</strong> Sincronización con el sistema operativo para silenciar notificaciones de otras aplicaciones durante los pomodoros.</li>
+                        <li><strong>Interfaz Minimalista y Limpia:</strong> Un diseño intuitivo y sin elementos superfluos que puedan desviar la atención.</li>
+                    </ul>
+                    
+                    <h4 class="text-xl font-semibold text-white pt-4">IV. Personalización y Experiencia de Usuario Enriquecida</h4>
+                     <p>La experiencia debe ser agradable y motivadora para fomentar el uso continuado.</p>
+                    <ul>
+                        <li><strong>Alertas y Sonidos Configurables:</strong> Una biblioteca de sonidos de notificación (desde tonos sutiles hasta alarmas más enérgicas) y la posibilidad de subir sonidos propios. El volumen debe ser ajustable.</li>
+                        <li><strong>Ambiente Visual y Sonoro:</strong> Ofrecer temas visuales (modos, claro, oscuro, etc.) y sonidos ambientales (lluvia, bosque, cafetería) para crear un entorno de trabajo propicio.</li>
+                        <li><strong>Sincronización Multiplataforma:</strong> Disponibilidad y sincronización perfecta entre dispositivos de escritorio (Windows, macOS, Linux) y móviles (iOS, Android), e incluso en relojes inteligentes.</li>
+                    </ul>
+
+                    <h4 class="text-xl font-semibold text-white pt-4">V. Análisis, Seguimiento y Gamificación para la Motivación</h4>
+                    <p>Para mejorar, es crucial medir. El pomodoro definitivo sería un analista de la productividad personal.</p>
+                    <ul>
+                        <li><strong>Informes Detallados:</strong> Estadísticas visuales y fáciles de interpretar sobre el número de pomodoros completados por día, semana y mes. Gráficos que muestren la distribución del tiempo por tarea o proyecto.</li>
+                        <li><strong>Seguimiento del Progreso:</strong> Visualización del progreso hacia metas diarias o semanales de pomodoros.</li>
+                        <li><strong>Elementos de Gamificación:</strong> Logros, recompensas, sistema de puntos o niveles, y proyectos visuales motivadores (como hacer crecer un bosque virtual).</li>
+                        <li><strong>Tablas de Clasificación (Opcional):</strong> Para equipos o grupos de estudio, la posibilidad de competir de forma sana.</li>
+                    </ul>
+
+                    <h4 class="text-xl font-semibold text-white pt-4">VI. Integraciones Inteligentes con el Ecosistema Digital</h4>
+                     <p>El pomodoro no debe ser una isla; debe conectarse con otras herramientas de productividad.</p>
+                    <ul>
+                        <li><strong>Sincronización con Calendarios:</strong> Posibilidad de visualizar los eventos del calendario y planificar los pomodoros en torno a ellos.</li>
+                        <li><strong>Integración con Gestores de Tareas Populares:</strong> Conexión con plataformas como Todoist, Asana, Trello o Jira.</li>
+                        <li><strong>API para Desarrolladores:</strong> Una API abierta que permita a los usuarios crear sus propias integraciones.</li>
+                    </ul>
+
+                    <h4 class="text-xl font-semibold text-white pt-4">VII. Fundamento en la Psicología de la Productividad</h4>
+                    <p>Finalmente, el mejor pomodoro del mundo debe estar diseñado con un profundo respeto por los principios psicológicos que hacen que la técnica funcione.</p>
+                     <ul>
+                        <li><strong>Refuerzo Positivo:</strong> Cada pomodoro completado debe sentirse como una pequeña victoria.</li>
+                        <li><strong>Gestión de la Energía Mental:</strong> Promover activamente la importancia de los descansos.</li>
+                        <li><strong>Conciencia del Tiempo:</strong> Ayudar al usuario a desarrollar una mejor percepción de cuánto tiempo le llevan realmente las tareas.</li>
+                    </ul>
+
+                    <p class="font-semibold mt-6">En resumen, el pomodoro perfecto no es solo un cronómetro. Es un asistente personal de productividad que planifica, protege el enfoque, motiva, analiza el rendimiento y se integra a la perfección en la vida digital del usuario, todo ello manteniendo la esencia de simplicidad y eficacia que ha hecho de la Técnica Pomodoro un pilar de la gestión del tiempo, en HTML, CSS Y Javascript puro siempre que no influya en el funcionamiento o diseño de la aplicación.</p>
+                </div>
+            </div>
+
+             <!-- Contenedor del Prompt 2 -->
+            <div class="bg-gray-800 rounded-xl shadow-lg p-6 md:p-8 mb-12">
+                <h3 class="text-2xl font-bold text-cyan-400 mb-6">Prompt #2: Creatividad y Funcionalidad</h3>
+                
+                <div class="prose prose-invert max-w-none text-gray-300 space-y-4">
+                    <p class="italic">"Ok, ahora quiero que sobre esa idea, me des funcionalidades para hacerla de la manera más creativa y potente posible. Dame ideas concretas que pueda implementar en HTML, CSS y Javascript. Céntrate en la gamificación, la personalización visual y sonora, y funcionalidades 'quality of life' para un usuario avanzado."</p>
+                    
+                    <h4 class="text-xl font-semibold text-white pt-4">🌳 El Bosque de Enfoque (Concepto Principal)</h4>
+                    <p>La idea central es que cada pomodoro completado planta un árbol en un "bosque" virtual personal. Este bosque crece y cambia con el tiempo, reflejando el esfuerzo y la dedicación del usuario.</p>
+                    <ul>
+                        <li><strong>Día/Noche y Clima:</strong> Haz que el fondo del bosque cambie sutilmente según la hora del día del usuario (mañanas claras, tardes doradas, noches estrelladas). Añade efectos climáticos sutiles y aleatorios, como una lluvia ligera o nubes que pasan.</li>
+                        <li><strong>Árboles Marchitos por Interrupciones:</strong> Si un usuario anula un pomodoro a la mitad, el árbol que estaba "creciendo" durante esa sesión podría aparecer en el bosque pero marchito o de un color apagado. Esto crea un incentivo visual para no interrumpir las sesiones.</li>
+                        <li><strong>Sistema de Logros y Desbloqueos:</strong> Crea una sección para "Logros". Ejemplos: "Racha de 7 días", "Maestro del Bosque" (Planta 100 árboles), "Maratonista" (Completa 10 pomodoros en un solo día).</li>
+                        <li><strong>Recompensas:</strong> Al desbloquear logros, el usuario podría obtener acceso a nuevos tipos de árboles (robles, secuoyas, cerezos en flor) para plantar en su bosque, haciéndolo más diverso y personal.</li>
+                    </ul>
+
+                    <h4 class="text-xl font-semibold text-white pt-4">🎶 Sonido y Ambiente</h4>
+                    <p>El enfoque no es solo visual, también es auditivo.</p>
+                    <ul>
+                        <li><strong>Sonidos Ambientales:</strong> Añade una opción en la configuración para reproducir sonidos de fondo relajantes durante las sesiones. Opciones: Lluvia suave, sonidos de un bosque, una cafetería, ruido blanco. Incluye un control de volumen independiente.</li>
+                        <li><strong>Sonido de "Tic-Tac" Opcional:</strong> Algunas personas encuentran útil un sutil sonido de tic-tac de reloj durante los pomodoros para mantener la conciencia del tiempo.</li>
+                    </ul>
+
+                    <h4 class="text-xl font-semibold text-white pt-4">📊 Estadísticas y Análisis más Profundos</h4>
+                    <p>Los datos son poder. Ayuda al usuario a entender mejor sus patrones.</p>
+                    <ul>
+                        <li><strong>Filtros de Estadísticas:</strong> Además del gráfico semanal, permite ver los datos por mes o incluso un rango de fechas personalizado.</li>
+                        <li><strong>Gráfico de Tarta:</strong> Añade un gráfico que muestre en qué tareas (o proyectos) ha invertido más pomodoros.</li>
+                        <li><strong>Registro de Distracciones:</strong> Cuando un usuario anula un pomodoro, puede añadir un motivo de la interrupción ("Llamada", "Reunión imprevista", "Redes Sociales"). Esta información se puede mostrar en las estadísticas.</li>
+                    </ul>
+                    
+                    <h4 class="text-xl font-semibold text-white pt-4">✨ Gestión de Tareas y Calidad de Vida (QoL)</h4>
+                     <p>Haz que la gestión de tareas sea más potente y la experiencia más fluida.</p>
+                    <ul>
+                        <li><strong>Proyectos y Etiquetas (Tags):</strong> Permite al usuario agrupar tareas en proyectos. Al añadir una tarea, podría asignarla a un proyecto ("Trabajo", "Estudio", "Personal").</li>
+                        <li><strong>Subtareas:</strong> Permite que una tarea principal tenga una lista de subtareas (checklist). Completar todas las subtareas marcaría la tarea principal como completada.</li>
+                        <li><strong>Atajos de Teclado (Keyboard Shortcuts):</strong> Implementa atajos para usuarios avanzados: Barra espaciadora para Iniciar/Pausar, Alt + N para nueva tarea, Alt + T para abrir/cerrar panel de tareas.</li>
+                         <li><strong>Notificaciones de Escritorio:</strong> Usa la API de Notificaciones del navegador para enviar una notificación nativa cuando termine un ciclo.</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <!-- Contenedor del Prompt 3 -->
+            <div class="bg-gray-800 rounded-xl shadow-lg p-6 md:p-8 mb-12">
+                <h3 class="text-2xl font-bold text-cyan-400 mb-6">Prompt #3: Ajustes de Diseño</h3>
+                
+                <div class="prose prose-invert max-w-none text-gray-300 space-y-4">
+                    <p class="italic">"Cuando se ponga el modo día, quiero que el contador, la tarea y 'Tiempo para enfocarse' (quiero que su color sea negro)."</p>
+                    <p>Este es un ejemplo perfecto de un prompt de ajuste fino. Una vez que la estructura principal está definida, el siguiente paso es pulir los detalles visuales para asegurar que cada elemento se vea perfecto en todos los modos y temas.</p>
+                </div>
+            </div>
+
+            <!-- Contenedor del Prompt 4 -->
+            <div class="bg-gray-800 rounded-xl shadow-lg p-6 md:p-8 mb-12">
+                <h3 class="text-2xl font-bold text-cyan-400 mb-6">Prompt #4: Personalización Sonora Avanzada</h3>
+                
+                <div class="prose prose-invert max-w-none text-gray-300 space-y-4">
+                    <p class="italic">"Quiero que para el sonido ambiental los usuarios puedan meter sus propios mp3 y que también sirva para playlist (de youtube, spotify)."</p>
+                    <p>Aquí es donde una buena idea se convierte en una característica potente. Dar al usuario el control total sobre su ambiente sonoro, permitiendo no solo sonidos predefinidos sino su propia música, eleva la aplicación de una simple herramienta a un compañero de trabajo personalizado.</p>
+                </div>
+            </div>
+
+            <!-- Contenedor del Prompt 5 -->
+            <div class="bg-gray-800 rounded-xl shadow-lg p-6 md:p-8">
+                <h3 class="text-2xl font-bold text-cyan-400 mb-6">Prompt #5: Gamificación y Pulido de UI</h3>
+                
+                <div class="prose prose-invert max-w-none text-gray-300 space-y-4">
+                    <p class="italic">"Quiero que los logros te den puntos. Añade un icono de una tienda para canjear esos puntos por adornos para los árboles. Y muy importante, encuadra bien los árboles para que no se superpongan a las letras."</p>
+                    <p>Este prompt cierra el ciclo de la gamificación: no solo se ganan logros, sino que estos otorgan una moneda virtual que se puede gastar. Esto crea un bucle de motivación muy efectivo. Además, incluye una petición de ajuste visual crucial, demostrando la importancia de iterar sobre la interfaz a medida que se añaden nuevas funcionalidades.</p>
+                </div>
+            </div>
+
+
+          
+            <div class="mt-12 text-center">
+                 <h2 class="text-3xl font-bold text-white mb-4">Autoria</h2>
+                 <p class="text-gray-300 max-w-2xl mx-auto">
+                    Angel Solis Sesmero
+                 </p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 mt-16 pb-6">
+            <p>&copy; 2025 - Un proyecto de desarrollo con IA.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
+
+
+
